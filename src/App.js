@@ -3,6 +3,7 @@ import Main from './components/Main/Main';
 import ResetButton from './components/ResetButton/ResetButton';
 import styled from "styled-components"
 
+
 const ContainerMain = styled.div`
 display: flex;
 flex-direction: column;
@@ -17,12 +18,12 @@ function App() {
     <Main/>
     <ResetButton/>
     </ContainerMain>
+    );
+  }
+  
+  export default App;
     
     
-  );
-}
-
-export default App;
 
 
      
